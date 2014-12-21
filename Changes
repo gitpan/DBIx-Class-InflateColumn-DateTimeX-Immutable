@@ -1,0 +1,8 @@
+Changes for DBIx::Class::InflateColumn::DateTimeX::Immutable
+
+0.31 - Fri Dec 19 17:10:17 EST 2014
+    Initial release
+
+0.30 - Thu Dec 18 14:32:37 EST 2014
+    Initial conversion to a releasable module
+
