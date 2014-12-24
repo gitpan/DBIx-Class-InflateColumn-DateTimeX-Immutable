@@ -17,8 +17,9 @@ my $build = Module::Build->new(
     },
 
     test_requires => {
-        'Test::More'  => '0.87',
-        'DBD::SQLite' => '0',
+        'Test::More'      => '0.87',
+        'DBD::SQLite'     => '0',
+        'SQL::Translator' => '0.11018',    # Needed to ->deploy()
     },
 
     meta_merge => {
