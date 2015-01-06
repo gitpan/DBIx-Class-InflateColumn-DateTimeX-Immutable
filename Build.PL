@@ -20,6 +20,7 @@ my $build = Module::Build->new(
         'Test::More'      => '0.87',
         'DBD::SQLite'     => '0',
         'SQL::Translator' => '0.11018',    # Needed to ->deploy()
+        'DateTime::Format::SQLite' => '0', # Needed to test on some machines
     },
 
     meta_merge => {

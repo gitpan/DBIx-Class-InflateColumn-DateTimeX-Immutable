@@ -10,7 +10,7 @@ use DateTimeX::Immutable;
 use Try::Tiny;
 use namespace::autoclean;
 
-our $VERSION = '0.32';
+our $VERSION = '0.33';
 
 sub _inflate_to_datetime {
     my $self = shift;
@@ -33,7 +33,7 @@ DBIx::Class::InflateColumn::DateTimeX::Immutable - Inflate/deflate DBIx::Class c
 
 =head1 VERSION
 
-version 0.32
+version 0.33
 
 =head1 SYNOPSIS
 

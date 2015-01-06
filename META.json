@@ -31,6 +31,7 @@
       "test" : {
          "requires" : {
             "DBD::SQLite" : "0",
+            "DateTime::Format::SQLite" : "0",
             "SQL::Translator" : "0.11018",
             "Test::More" : "0.87"
          }
@@ -39,7 +40,7 @@
    "provides" : {
       "DBIx::Class::InflateColumn::DateTimeX::Immutable" : {
          "file" : "lib/DBIx/Class/InflateColumn/DateTimeX/Immutable.pm",
-         "version" : "0.32"
+         "version" : "0.33"
       }
    },
    "release_status" : "stable",
@@ -54,5 +55,5 @@
          "url" : "https://github.com/mvgrimes/perl-dbic-inflate-datetimex-immutible"
       }
    },
-   "version" : "0.32"
+   "version" : "0.33"
 }
